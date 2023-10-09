@@ -3,267 +3,513 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
 
-  <title>Anyar Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Alpha - Multipurpose HTML Template</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- LOAD JQUERY LIBRARY -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    
+    <!-- Loading Bootstrap -->
+    <link href="{% static 'css/bootstrap.css' %}" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- Loading Template CSS -->
+    <link href="{% static 'css/style.css' %}" rel="stylesheet">
+    <link href="{% static 'css/style-magnific-popup.css' %}" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link href="{% static 'css/fonts.css' %}" rel="stylesheet">
+    <link href="{% static 'font/flaticon.css' %}" rel="stylesheet">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,400i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Oleo+Script+Swash+Caps" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
+    <!-- LOADING FONTS AND ICONS -->        
+    <link rel="stylesheet" type="text/css" href="{% static 'revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'revolution/fonts/font-awesome/css/font-awesome.min.css' %}">
 
-  <link href="{% static 'assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/remixicon/remixicon.css' %}" rel="stylesheet">
-  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+    <!-- Font Favicon -->
+    <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}">
 
-  <!-- Template Main CSS File -->
-  <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Anyar
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+    
+    <!--headerIncludes-->
+    
 </head>
-
 <body>
+    
+    <!--begin top-intro -->
+    <div class="top-intro" id="top-intro">
+    
+        <!--begin container-->
+        <div class="container"> 
 
-  <!-- ======= Top Bar ======= -->
-  <div id="topbar" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-      <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
-        <i class="bi bi-phone-fill phone-icon"></i> +1 5589 55488 55
-      </div>
-      <div class="cta d-none d-md-block">
-        <a href="#about" class="scrollto">Get Started</a>
-      </div>
-    </div>
-  </div>
+            <!--begin row-->
+            <div class="row">
+            
+                <!--begin col-sm-4-->
+                <div class="col-sm-4 details-wrapper">
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center ">
-    <div class="container d-flex align-items-center justify-content-between">
+                    <!--begin header_social -->
+                    <ul class="header_social">
+                        <li>
+                            <a href="#" class="twitter">
+                                <i class="icon icon-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="pinterest">
+                                <i class="icon icon-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="facebook">
+                                <i class="icon icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="instagram">
+                                <i class="icon icon-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="skype">
+                                <i class="icon icon-skype"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end header_social -->
 
-      <h1 class="logo"><a href="index.html">Anyar</a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+                </div>
+                <!--end col-sm-4 -->
+                 
+                <!--begin col-sm-8-->
+                <div class="col-sm-8">
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="{% url 'home' %}">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a href="{% url 'blog' %}">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
+                    <!--begin header_contact -->
+                    <ul class="header_contact pull-right">
+                        <li><i class="icon icon-call-phone"></i> 1-987-654-3210</li>
+                        <li><i class="icon icon-pin-map"></i> 123, Regal Mansion, California, US</li>
+                    </ul>
+                    <!--end header_contact -->
 
-    </div>
-  </header><!-- End Header -->
-  {% block content %}{% endblock %}
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact Us</h2>
+                </div>
+                <!--end col-sm-8 -->
+                       
+            </div>
+            <!--end row -->
+                    
         </div>
+        <!--end container -->
+                
+    </div>
+    <!--end top-intro -->
 
-        <div class="row mt-1 d-flex justify-content-end" data-aos="fade-right" data-aos-delay="100">
+    <!--begin header -->
+    <header class="header">
 
-          <div class="col-lg-5">
-            <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
-              </div>
+        <!-- begin navbar -->
+        <div class="navbar yamm navbar-default ">
+          
+            <!-- begin container -->
+            <div class="container">
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>info@example.com</p>
-              </div>
+                <!-- begin navbar-header -->
+                <div class="navbar-header">
+                    <button data-target="#navbar-collapse-02" data-toggle="collapse" class="navbar-toggle" type="button">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand brand scrool" id="logo"><span>A</span>lpha</a>
+                </div>
+                <!-- end navbar-header -->
 
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+1 5589 55488 55s</p>
-              </div>
+                <!-- begin navbar -->
+                <div id="navbar-collapse-02" class="navbar-collapse collapse">
+                    
+                    <!-- begin nav -->
+                    <ul class="nav navbar-nav text-right">
+
+                        <li class="dropdown"><a href="index.html" data-toggle="dropdown" class="dropdown-toggle selected">HOME</a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a tabindex="-1" href="index.html"> Home Version 1 </a></li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="index-2.html"> Home Version 2 </a></li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="index-3.html"> Home Version 3 </a></li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="index-4.html"> Home Version 4 </a></li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown"><a href="about-us.html" data-toggle="dropdown" class="dropdown-toggle">ABOUT</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <ul class="col-sm-6 list-unstyled">
+                                                <li>
+                                                  <p class="nav-title">About Alpha<br><span class="nav-subtitle">Discover our company.</span></p>
+                                                </li>
+                                                <li><a href="about-us.html"><i class="icon icon-rocket"></i> About Our Company</a></li>
+                                                <li><a href="our-team.html"><i class="icon icon-chat-bubble-two"></i> Our Amazing Team</a></li>
+                                                <li><a href="pricing.html"><i class="icon icon-money-banknote"></i> Pricing Packages </a></li>
+                                            </ul>
+                                            <ul class="col-sm-6 list-unstyled">
+                                                <li>
+                                                  <p class="nav-title">Extra Pages<br><span class="nav-subtitle">How we can help you.</span></p>
+                                                </li>
+                                                <li><a href="services.html"><i class="icon icon-gears-setting"></i> Our Services</a></li>
+                                                <li><a href="service-single.html"><i class="icon icon-gears-setting"></i> Services Single Page</a></li>
+                                                <li><a href="services-block.html"><i class="icon icon-gears-setting"></i> Services Blocks</a></li>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown"><a href="portfolio-main.html" data-toggle="dropdown" class="dropdown-toggle">Services</a>
+                          <ul role="menu" class="dropdown-menu">
+                            <li><a href="services.html"> Services Page</a></li>
+                            <li class="divider"></li>
+                            <li><a href="services-block.html"> Services Blocks</a></li>
+                            <li class="divider"></li>
+                            <li><a href="service-single.html"> Service Single Page</a></li>
+                          </ul>
+                        </li>
+
+                        <li class="dropdown yamm-fw"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Elements</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <div class="yamm-content">
+                                        <div class="row">
+                                            <ul class="col-sm-3 list-unstyled">
+                                                <li>
+                                                  <p class="nav-title">About Alpha<br><span class="nav-subtitle">Discover our company.</span></p>
+                                                </li>
+                                                <li><a href="about-us.html"><i class="icon icon-rocket"></i> About Our Company</a></li>
+                                                <li><a href="our-team.html"><i class="icon icon-chat-bubble-two"></i> Our Amazing Team</a></li>
+                                                <li><a href="our-team-block.html"><i class="icon icon-science-laboratory"></i> Team Blocks</a></li>
+                                                <li><a href="pricing.html"><i class="icon icon-money-banknote"></i> Pricing Packages </a></li>
+                                            </ul>
+
+                                            <ul class="col-sm-3 list-unstyled">
+                                                <li>
+                                                  <p class="nav-title">Our Services<br><span class="nav-subtitle">How we can help you.</span></p>
+                                                </li>
+                                                <li><a href="services.html"><i class="icon icon-gears-setting"></i> Our Services</a></li>
+                                                <li><a href="services-block.html"><i class="icon icon-science-laboratory"></i> Services Block </a></li>
+                                                <li><a href="service-single.html"><i class="icon icon-sitemap"></i> Single Service Page</a></li>
+                                            </ul>
+
+                                            <ul class="col-sm-3 list-unstyled">
+                                                <li>
+                                                  <p class="nav-title">Alpha News<br><span class="nav-subtitle">Discover latest news</span></p>
+                                                </li>
+                                                <li><a href="{% url 'blog' %}"><i class="icon icon-rocket"></i>Blog</a></li>
+                                                <li><a href="blog-single.html"><i class="icon icon-rocket"></i> Blog Single Page </a></li>
+                                            </ul>
+
+                                            <ul class="col-sm-3 list-unstyled">
+                                                <li>
+                                                  <p class="nav-title">Alpha - Business Consulting and Financial Services</p>
+                                                </li>
+                                                <li>
+                                                  <a href="services.html"><img src="http://placehold.it/400x283" 
+                                                  alt="chart-image"  class="menu-image"></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Blog</a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a tabindex="-1" href="blog.html">Blog Listing</a></li>
+                                <li class="divider"></li>
+                                <li><a tabindex="-1" href="blog-single.html">Blog Single</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="contact-us.html" class="menu-last">Contact</a></li>
+
+                       
+                        <li class="dropdown hidden-nav-item"><a href="#" data-toggle="dropdown" class="dropdown-toggle">How to Reach Us</a>
+                            <ul role="menu" class="dropdown-menu">
+                                <li><a tabindex="-1" href="#"><i class="icon icon-call-phone"></i> 1-987-654-3210</a></li>
+                                <li><a tabindex="-1" href="#"><i class="icon icon-pin-map"></i> 123, Regal Garden, London, UK</a></li>
+                            </ul>
+                        </li>
+                
+                    </ul>
+                    <!-- end nav -->
+
+                </div>
+                <!-- end navbar -->
 
             </div>
-
-          </div>
-
-          <div class="col-lg-6 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="100">
-
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
+            <!-- end container -->
 
         </div>
+        <!-- end navbar -->
+            
+    </header>
+    <!--end header -->
 
-      </div>
-    </section><!-- End Contact Section -->
+    <!--------EXTENDED CONTENT--------- EXTENDED CONTENT---------->
+    {% block content %}{% endblock %}           
+    <!--------EXTENDED CONTENT--------- EXTENDED CONTENT---------->
+    
+    <!--begin blog -->
+    <section class="section-white">
+    
+    </section>
+    <!--end blog -->    
+        
+    <!--begin newsletter_wrapper-->
+    <div class="section-image-newsletter">
 
-  </main><!-- End #main -->
+    <div class="section-image-news-overlay"></div>
+        
+        <!--begin container-->
+        <div class="container">
+        
+          <!--begin row-->
+          <div class="row">
+                
+                <!--begin col-md-6-->
+                <div class="col-md-6">
+                    
+                    <!--begin newsletter_info -->
+                    <div class="newsletter_info">
+                    
+                        <h4>Newsletter form</h4>
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
+                        <p>Don't miss to subscribe to our financial updates. Sapien gestas volutpat posuere cubilia congue ipsum mauris lectus interdum lectus neque.</p>
+                           
+                        <!--begin success_box -->
+                        <p class="newsletter_success_box" style="display:none;">We received your message and you'll hear from us soon. Thank You!</p>
+                        <!--end success_box -->
+                        
+                        <!--begin newsletter-form -->
+                        <form id="newsletter-form" class="newsletter_form" action="php/newsletter.php" method="post">
+                            <input id="email_newsletter" name="nf_email" placeholder="Enter Your Email Address" type="email">  
+                            <input value="SUBSCRIBE" id="submit-button-newsletter" type="submit">
+                        </form>
+                        <!--end newsletter-form -->
+                                
+                    </div>
+                    <!--end newsletter_info -->
+                        
+                </div>
+                <!--end col-md-6 -->
+                
+                <!--begin col-md-6 -->
+                <div class="col-md-6">
+                        
+                    <!--begin newsletter_info -->
+                    <div class="newsletter_info">
+                    
+                        <h4>Got any questions?</h4>
 
-    <div class="footer-newsletter">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-          </div>
-          <div class="col-lg-6">
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+                        <p>Enim ad minim veniam, quis nostrud exercitation ullamco laboris. Enim ad minim veniam, quis nostrud exercitation ullamco laboris nim ad minim veniam.</p>
+                           
+                        <div class="newsletter-box">
+                            
+                            <i class="icon icon-call-phone"></i>
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+                            <p>Speak to Customer Services</p>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
+                            <span>+44 987 654 321</span>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Anyar</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                        </div>
+                                
+                    </div>
+                    <!--end newsletter_info -->
+                                
+                </div>
+                <!--end col-md-6 -->
+        
             </div>
-          </div>
+            <!--end row -->
 
         </div>
-      </div>
+        <!--begin container-->
+    
     </div>
+    <!--end newsletter_wrapper-->
+    
+    <!--begin footer -->
+    <div class="footer">
+            
+        <!--begin container -->
+        <div class="container">
+        
+            <!--begin row -->
+            <div class="row footer-top">
+            
+                <!--begin col-md-4 -->
+                <div class="col-md-4 padding-bottom-50">
+                
+                    <h4>ABOUT US</h4>
+                    
+                    <p class="margin-bottom-20">Quis autem velis etis reprehender etims quiste voluptate velite esse quam nihil etsa illum sedit consequatur netsum.</p>
 
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Anyar</span></strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/anyar-free-multipurpose-one-page-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
+                    <a href="#" class="btn-sm btn-blue">Discover More</a>
+                                        
+                </div>
+                <!--end col-md-4 -->
+                
+                <!--begin col-md-4 -->
+                <div class="col-md-4 padding-bottom-50">
+                
+                    <h4>USEFUL LINKS</h4>
+                    
+                    <ul class="footer-list">
+                        
+                        <li class="first"><a href="#" target="blank">Financial Planning</a></li>
+                        
+                        <li><a href="#" target="blank">Financial Solutions For Startups</a></li>
+                        
+                        <li><a href="#" target="blank">Business Context 2017</a></li>
+                        
+                        <li><a href="#" target="blank">Target Your Best Loan Posibility</a></li>
+                        
+                    </ul>
+                    
+                </div>
+                <!--end col-md-4 -->
+                
+                <!--begin col-md-4 -->
+                <div class="col-md-4 padding-bottom-50">
+                
+                    <h4>CONTACT DETAILS</h4>
+                    
+                    <p>Get in touch today to discover how we can benefit your business.</p>
+                    
+                    <p class="contact_info"><i class="icon icon-pin-map"></i> Oxford Street, London, UK, N1 1ED</p>
+                    
+                    <p class="contact_info"><i class="icon icon-email-envelope"></i> <a href="mailto:contact@email.com">contact@marketer.com</a></p>
+                    
+                    <p class="contact_info"><i class="icon icon-call-phone"></i> +44 987 654 321</p>
+                
+                </div>
+                <!--end col-md-4 -->
+                
+            </div>
+            <!--end row -->
+            
+            <!--begin row -->
+            <div class="row">
+                
+                <!--begin footer-bottom -->
+                <div class="footer-bottom">
+                
+                    <!--begin col-md-5 -->
+                    <div class="col-md-5">
+                        
+                        <!--begin copyright -->
+                        <div class="copyright ">
+                            <p>© 2017 Alpha. Designed by <a href="http://themeforest.net/user/bogdan_09/portfolio?ref=bogdan_09" target="_blank">Epic WebDesign Team</a></p>
+                            
+                        </div>
+                        <!--end copyright -->
+                       
+                    </div>
+                    <!--end col-md-5 -->
+                    
+                    <!--begin col-md-2 -->
+                    <div class="col-md-2 text-center">
+                    
+                        <a href="#top-intro" class="scrool top-scroll"><i class="icon icon-angle-up"></i></a>
+                        
+                    </div>
+                    <!--end col-md-2 -->
+                    
+                    <!--begin col-md-5 -->
+                    <div class="col-md-5">
+                                                        
+                        <!--begin footer_social -->
+                        <ul class="footer_social">
+                            <li>
+                                Follow Us:
+                            </li>
+                            <li>
+                            <a href="#">
+                                <i class="icon icon-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="icon icon-skype"></i>
+                            </a>
+                        </li>
+                        </ul>
+                        <!--end footer_social -->
+                        
+                    </div>
+                    <!--end col-md-5 -->
+                        
+                </div>
+                <!--end footer-bottom -->
+                        
+            </div>
+            <!--end row -->
+            
+        </div>
+        <!--end container -->
+                
     </div>
-  </footer><!-- End Footer -->
+    <!--end footer -->
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+     <script type="text/javascript">
 
-  <!-- Vendor JS Files -->
-  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
-  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
-  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+                console.log(" Itchy " != " Scratchy ")
 
-  <!-- Template Main JS File -->
-  <script src="{% static 'assets/js/main.js' %}"></script>
 
-</body>
+                </script>
 
-</html>
+
+
+
+    <!-- Load JS here for greater good =============================-->
+    <script src="{% static 'js/jquery-1.11.3.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'js/jquery.scrollTo-min.js' %}"></script>
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>
+    <script src="{% static 'js/plugins.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
+
+    
+</body></html>

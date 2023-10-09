@@ -4,5 +4,5 @@ from main import views
 
 urlpatterns = [
     path('', views.home, name="home"),
-    path('blog/', views.blog, name='blog'),
+    path('post/<int:pk>', views.service_detail, name='serv_detail'),
 ]
